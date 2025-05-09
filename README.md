@@ -10,8 +10,11 @@ This project aims to support early ASD detection by analyzing questionnaire-base
 By utilizing machine learning models, we can predict whether an individual is likely to have ASD or not, based on multiple inputs.
 
 🔹 **Problem Type**: Classification
+
 🔹 **Best Model**: XGBoost Classifier (with tuned hyperparameters)
+
 🔹 **Main Metric**: F1-Score, ROC-AUC Score
+
 🔹 **Dataset**: Behavioral and personal features collected via questionnaire responses.
 
 ---
