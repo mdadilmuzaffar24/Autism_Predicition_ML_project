@@ -13,7 +13,6 @@ We have successfully developed a high-performance predictive model using XGBoost
 Best Model: ⚡ XGBoost Classifier (with hyperparameter tuning)
 
 Cross-Validation ROC AUC Scores:
-
 [0.9657, 0.9604, 0.9654, 0.9499, 0.9753]
 
 Mean Cross-Validation ROC AUC:
@@ -195,9 +194,4 @@ This project is open-source and available under the **MIT License**.
 ---
 
 # 🚀 Thank you for visiting!
-
----
-
-Would you also like me to provide a clean **`requirements.txt`** and **`.gitignore`** so your GitHub project looks even more professional? (it’s a very good practice.) 🚀
-Should I prepare that too? 📦✨
 
