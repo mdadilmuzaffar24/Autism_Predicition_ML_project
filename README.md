@@ -66,15 +66,6 @@ By utilizing machine learning models, we can predict whether an individual is li
 
 ✅ The model demonstrates excellent performance, generalizing well across validation folds.
 
----
-
-## 📊 Model Performance
-
-| Model                    | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-| ------------------------ | -------- | --------- | ------ | -------- | ------- |
-| XGBoost Classifier       | 83.75%   | 56.8%     | 78.1%  | 65.7%    | 81.6%   |
-| Random Forest Classifier | 80.62%   | 51.2%     | 68.7%  | 58.6%    | 76.1%   |
-| Logistic Regression      | 78.12%   | 46.8%     | 68.7%  | 55.7%    | 74.6%   |
 
 ---
 
