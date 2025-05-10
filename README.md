@@ -67,7 +67,7 @@ Trained and compared 3 models:
 | ✅ **SMOTE + TomekLinks**  | Used         | Smart sampling strategy to handle class imbalance |
 | ✅ **Threshold Tuning**     | Applied      | Optimized decision threshold to boost ASD detection |
 | ✅ **Hyperparameter Tuning**| Done (XGBoost) | 30-iteration `RandomizedSearchCV` using ROC AUC |
-
+| **Accuracy**  | 82%       |
 > 📌 In health screening, **Test ROC AUC  & Recall (Class 1)** are more valuable than raw accuracy.
 
 ---
@@ -167,7 +167,7 @@ ROC AUC Score: 0.86
 ## 👨‍💻 Author
 
 **Md Adil Muzaffar**
-📧 \[[adilmuzaffar96@gmail.com](mailto:adilmuzaffar96@gmail.com)]
+📧 \[[gmail](mailto:adilmuzaffar96@gmail.com)]
 🔗 [LinkedIn](www.linkedin.com/in/md-adil-muzaffar)
 📂 Project Portfolio: \[Your Portfolio Link]
 
