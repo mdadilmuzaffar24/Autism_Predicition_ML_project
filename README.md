@@ -56,18 +56,19 @@ Trained and compared 3 models:
 
 ---
 
-## 🚀 Final Model Performance (XGBoost)
+## 📊 Project Highlights
 
-### 📈 Cross-Validation Results:
-| Metric        | Value     |
-|---------------|-----------|
-| **CV ROC AUC**| **0.96**  | ← ⭐ Outstanding generalization ability |
-| **Test ROC AUC** | 0.86   | ← Strong class separation |
-| **F1-Score (ASD class)** | 0.61 | ← Balanced precision and recall |
-| **Recall (ASD class)**   | 0.69 | ← High sensitivity (catches 69% ASD cases) |
-| **Accuracy**  | 82%       |
+| Metric                      | Value       | Description |
+|-----------------------------|-------------|-------------|
+| ✅ **CV ROC AUC (5-fold)**  | **0.96**     | Excellent generalization across folds |
+| ✅ **Test ROC AUC**         | **0.86**     | Strong ability to separate ASD vs Non-ASD |
+| ✅ **F1 Score (Class 1)**   | **0.61**     | Balanced precision and recall for minority class |
+| ✅ **Recall (Class 1)**     | **0.69**     | High sensitivity — catches most ASD cases |
+| ✅ **SMOTE + TomekLinks**  | Used         | Smart sampling strategy to handle class imbalance |
+| ✅ **Threshold Tuning**     | Applied      | Optimized decision threshold to boost ASD detection |
+| ✅ **Hyperparameter Tuning**| Done (XGBoost) | 30-iteration `RandomizedSearchCV` using ROC AUC |
 
-> 📌 In health screening, **recall & F1-score** are more valuable than raw accuracy.
+> 📌 In health screening, **Test ROC AUC  & Recall (Class 1)** are more valuable than raw accuracy.
 
 ---
 
