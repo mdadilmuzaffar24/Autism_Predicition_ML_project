@@ -65,7 +65,7 @@ Trained and compared 3 models:
 |-----------------------------|-------------|-------------|
 | ✅ **CV ROC AUC (5-fold)**  | **0.96**     | Excellent generalization across folds |
 | ✅ **Test ROC AUC**         | **0.86**     | Strong ability to separate ASD vs Non-ASD |
-| ✅ **F1 Score (Class 1)**   | **0.61**     | Balanced precision and recall for minority class |
+| ✅ **Best threshold for highest F1 Score**   | **0.89**     | Best F1-score achieved at threshold 0.89, balancing precision and recall effectively. |
 | ✅ **Recall (Class 1)**     | **0.69**     | High sensitivity — catches most ASD cases |
 | ✅ **SMOTE + TomekLinks**  | Used         | Smart sampling strategy to handle class imbalance |
 | ✅ **Threshold Tuning**     | Applied      | Optimized decision threshold to boost ASD detection |
