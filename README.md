@@ -1,5 +1,8 @@
 # 🧠 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 
+![image](https://github.com/user-attachments/assets/75395fa0-4092-445b-abb6-c3cae0118fbd)
+
+
 This project focuses on building a machine learning-based predictive system to identify the likelihood of Autism Spectrum Disorder (ASD) in individuals based on answers to screening questions and demographic data.
 
 Rather than aiming only for high accuracy, the goal of this model is **high recall (sensitivity)** and **balanced F1-score** for **Class 1 (ASD cases)**, which is essential in a healthcare screening context where **missing a positive case is riskier than a false alarm**.
